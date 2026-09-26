@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: #f1f6f4;
+}
+
+.assessment-page {
+  min-height: 100vh;
+  background: linear-gradient(145deg, #f5f8f7, #eaf2ef);
+}
+
+.assessment-card {
+  border-color: #d8e5e0;
+  border-top: 4px solid #168477;
+  box-shadow: 0 12px 32px rgb(27 66 59 / 8%);
+}
+
+.assessment-kicker {
+  color: #168477;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.assessment-title {
+  color: #183d39;
+}
