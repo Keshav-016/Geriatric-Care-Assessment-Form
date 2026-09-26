@@ -29,4 +29,6 @@ test('loads the sample patient and submits the parsed values', async () => {
     await screen.findByText('The patient assessment was saved successfully.')
   ).toBeInTheDocument();
   expect(onSave).toHaveBeenCalledWith(assessmentSchema.parse(samplePatient));
+  expect(screen.getByRole('textbox', { name: 'Patient name' })).toHaveValue('');
+  expect(screen.getByText(/Sushila Deshpande/)).toBeInTheDocument();
 });

@@ -88,6 +88,7 @@ export function AssessmentPage({
     try {
       await onSave?.(pendingAssessment);
       setSavedAssessment(pendingAssessment);
+      form.reset();
       setPendingAssessment(null);
       notifications.show({
         title: 'Assessment saved',
