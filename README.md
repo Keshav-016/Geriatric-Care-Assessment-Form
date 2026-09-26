@@ -2,6 +2,8 @@
 
 A one-page Geriatric Care Assessment form built for the supplied frontend take-home assignment.
 
+Deployed Url : https://geriatric-care-assessment-form.netlify.app/
+
 ## Stack
 
 - React 19
